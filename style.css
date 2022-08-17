@@ -1,0 +1,67 @@
+p{
+    text-align: center;
+    color:rgb(53, 143, 53)
+}
+#texto1{
+    font-family: 'Rubik Marker Hatch', cursive;
+    color:blueviolet;
+    font-size:1.5em;
+}
+#texto2{
+    color:rgb(62, 65, 224);
+    font-size:2em;
+}
+.cuadro{
+    background-color:cornflowerblue;
+    width:100px;
+    height:100px;
+    margin:100px;
+}
+*{
+    margin:0px;
+    padding:0px;
+    font-size:10px;
+}
+#cuadro1:hover{
+    background-color:darkgoldenrod;
+}
+li:first-child{
+    color:coral
+}
+#input1:focus{
+    background-color:rgb(48, 170, 103);
+}
+.cyan{
+    color: rgba(50,80,255,1);
+    background-color: rgba(30,200,80,0.5);
+    padding:30px;
+    margin:10px;
+    display:block
+}
+.verde{
+    color: #4FCA31;
+    background-color: violet;
+    padding:30px;
+    margin:10px;
+    display:block
+}
+.violeta{
+    color:violet;
+    background-color: rgba(50,80,255,0.5);
+    padding:30px;
+    margin:10px;
+    display:block
+}
+.contenedor{
+    width:600px;
+    height:400px;
+    border:5px double #0E531D;
+    border-radius:30px;
+    background-image:url("Siames.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    text-align: center;
+    font-size:20pt;
+    margin-left: 27%;
+}
